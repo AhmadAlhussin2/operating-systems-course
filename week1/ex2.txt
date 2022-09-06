@@ -1,0 +1,35 @@
+    1  sudo apt update
+    2  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    3  ls
+    4  ./autorun.sh
+    5  ls /user/bin/ | grep gcc |sort -r | tail -n 5 > ~/week1/ex1.txt
+    6  ls
+    7  mkdir ~/week1
+    8  cd ~week1
+    9  cd ~/week1
+   10  cd
+   11  cd Desktop
+   12  ls
+   13  cd
+   14  cd snap
+   15  ls
+   16  cd
+   17  cd Documents
+   18  ls
+   19  cd
+   20  cd Public
+   21  ls
+   22  cd
+   23  ls .
+   24  cd /use/bin
+   25  cd /user/bin
+   26  VBoxManage convertfromraw original_bin_image.bin targetname_converted.vdi --format VDI
+   27  sudo apt install virtualbox
+   28  [200~VBoxManage convertfromraw original_bin_image.bin targetname_converted.vdi --format VDI
+   29  ~VBoxManage convertfromraw original_bin_image.bin targetname_converted.vdi --format VDI
+   30  VBoxManage convertfromraw original_bin_image.bin targetname_converted.vdi --format VDI
+   31  ./configure --disable-hardening
+   32  ls /usr/bin
+   33  ls /usr/bin/ | grep gcc |sort -r | tail -n 5 > ~/week1/ex1.txt
+   34  history > ex2.txt
+   35  history > ~/week1/ex2.txt
