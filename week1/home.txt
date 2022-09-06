@@ -1,0 +1,12 @@
+total 40
+drwxrwxr-x 4 ahmad ahmad 4096 сен  6 13:47 week1
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Videos
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Templates
+drwx------ 4 ahmad ahmad 4096 сен  6 13:10 snap
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Public
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Pictures
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Music
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Downloads
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Documents
+drwxr-xr-x 2 ahmad ahmad 4096 сен  6 11:57 Desktop
+-rw-rw-r-- 1 ahmad ahmad    0 сен  6 13:33 ∼
