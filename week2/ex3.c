@@ -36,14 +36,15 @@ void convert(long long num,int base1,int base2)  // function to convert a number
     }
     num=toDec(num,base1); // convert the number to decimal format
     sprintf(numAsString,"%lld",num);
-    int i=0;
+    int len=0;
     while (num)
     {
-        ans[i]=(char)(num%base2+'0'); // convert from decimal to the given base
+        ans[len]=(char)(num%base2+'0'); // convert from decimal to the given base
         num/=base2;
-        i++;
+        len++;
     }
-    for (int i=0; i<strlen(ans)/2; i++) //reverse the string
+    ans[len]='\0';
+    for (int i=0; i<len/2; i++) //reverse the string
     {
         char tmp=ans[i];
         ans[i]=ans[strlen(ans)-i-1];
