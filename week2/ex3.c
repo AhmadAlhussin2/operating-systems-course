@@ -18,6 +18,11 @@ long long toDec(long long num,int base)  //function to convert given number from
 char ans[66];
 void convert(long long num,int base1,int base2)  // function to convert a number from base1 to base 2 and store the answer in "ans"
 {
+    if (base1>10||base1<2||base2>10||base2<2)
+    {
+	strcpy(ans,"cannot convert!");
+	return ;
+    }
     strcpy(ans,""); //clear the ans
     char numAsString[19]="";
     sprintf(numAsString,"%lld",num); // convert the number to string
@@ -31,11 +36,6 @@ void convert(long long num,int base1,int base2)  // function to convert a number
     }
     num=toDec(num,base1); // convert the number to decimal format
     sprintf(numAsString,"%lld",num);
-    if (base1>10||base1<2||base2>10||base2<2)  // bases are not in the given range
-    {
-        strcpy(ans,"cannot convert!");
-        return ;
-    }
     int i=0;
     while (num)
     {
