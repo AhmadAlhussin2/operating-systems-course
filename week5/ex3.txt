@@ -1,0 +1,10 @@
+664579
+execution time was 2 s for m=1.
+664579
+execution time was 2 s for m=2.
+664579
+execution time was 1 s for m=4.
+664579
+execution time was 1 s for m=10.
+664579
+execution time was 0 s for m=100.

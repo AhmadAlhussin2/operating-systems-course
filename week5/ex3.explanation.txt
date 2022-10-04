@@ -1,0 +1,3 @@
+We can notice that when increasing the number of threads the excution time decreses
+And it is expected since when dividing the tasks for different processe each process will take less time
+However, there is a limit for that because merging the results from different threads may take time
