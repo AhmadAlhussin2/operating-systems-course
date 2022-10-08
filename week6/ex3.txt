@@ -1,0 +1,61 @@
+For comaring the threee algorithms I used the following input:
+
+10 
+0 1
+0 2
+0 4
+0 6
+0 8
+11 8
+11 6
+11 4
+11 2
+11 1
+
+And I chose quantum to be 3 in ex3 (first line of the input is 10 3 instead of 10)
+
+The output from ex1:
+Proccess #0 completion time is: 1 , the turn around time is: 1 , and the waiting time is: 0
+Proccess #1 completion time is: 3 , the turn around time is: 3 , and the waiting time is: 1
+Proccess #2 completion time is: 7 , the turn around time is: 7 , and the waiting time is: 3
+Proccess #3 completion time is: 13 , the turn around time is: 13 , and the waiting time is: 7
+Proccess #4 completion time is: 21 , the turn around time is: 21 , and the waiting time is: 13
+Proccess #5 completion time is: 29 , the turn around time is: 18 , and the waiting time is: 10
+Proccess #6 completion time is: 35 , the turn around time is: 24 , and the waiting time is: 18
+Proccess #7 completion time is: 39 , the turn around time is: 28 , and the waiting time is: 24
+Proccess #8 completion time is: 41 , the turn around time is: 30 , and the waiting time is: 28
+Proccess #9 completion time is: 42 , the turn around time is: 31 , and the waiting time is: 30
+The average turn around time is: 17.600000 , and the average waiting time is: 13.400000
+
+The output from ex2:
+Proccess #0 completion time is: 1 , the turn around time is: 1 , and the waiting time is: 0
+Proccess #1 completion time is: 3 , the turn around time is: 3 , and the waiting time is: 1
+Proccess #2 completion time is: 7 , the turn around time is: 7 , and the waiting time is: 3
+Proccess #3 completion time is: 13 , the turn around time is: 13 , and the waiting time is: 7
+Proccess #4 completion time is: 34 , the turn around time is: 34 , and the waiting time is: 26
+Proccess #5 completion time is: 42 , the turn around time is: 31 , and the waiting time is: 23
+Proccess #6 completion time is: 26 , the turn around time is: 15 , and the waiting time is: 9
+Proccess #7 completion time is: 20 , the turn around time is: 9 , and the waiting time is: 5
+Proccess #8 completion time is: 16 , the turn around time is: 5 , and the waiting time is: 3
+Proccess #9 completion time is: 14 , the turn around time is: 3 , and the waiting time is: 2
+The average turn around time is: 12.100000 , and the average waiting time is: 7.900000
+
+The output from ex3:
+Proccess #0 completion time is: 1 , the turn around time is: 1 , and the waiting time is: 0
+Proccess #1 completion time is: 3 , the turn around time is: 3 , and the waiting time is: 1
+Proccess #2 completion time is: 13 , the turn around time is: 13 , and the waiting time is: 9
+Proccess #3 completion time is: 16 , the turn around time is: 16 , and the waiting time is: 10
+Proccess #4 completion time is: 40 , the turn around time is: 40 , and the waiting time is: 32
+Proccess #5 completion time is: 42 , the turn around time is: 31 , and the waiting time is: 23
+Proccess #6 completion time is: 37 , the turn around time is: 26 , and the waiting time is: 20
+Proccess #7 completion time is: 38 , the turn around time is: 27 , and the waiting time is: 23
+Proccess #8 completion time is: 27 , the turn around time is: 16 , and the waiting time is: 14
+Proccess #9 completion time is: 28 , the turn around time is: 17 , and the waiting time is: 16
+The average turn around time is: 19.000000 , and the average waiting time is: 14.800000
+
+
+In this specific case we can notice that shortest job first algorithm performs better than the other two algorithms ( in terms of average waiting time and average turn around time ).
+In addition, we can notice that "first come, first served (FCFS)" algorithm performed better than round robin algorithm.
+However, it is not always the case. Sometimes round robin algorithm may perform better than the other two.
+In conclusion, there is no algorithm better than the other since each one has its usecases;
+
