@@ -9,7 +9,10 @@ size_t min(size_t x,size_t y){
 }
 void* reallocate(void* arr,size_t size){
     if (arr==NULL)return malloc(size);
-    if (size==0)free(arr);
+    if (size==0){
+        free(arr);
+        return NULL;
+    }
     void* arr2 = malloc(size);
     memcpy(arr2,arr,min(malloc_usable_size(arr),size));
     free(arr);
