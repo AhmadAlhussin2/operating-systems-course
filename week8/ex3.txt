@@ -1,0 +1,13 @@
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                      
+   9113 ahmad     20   0 8391412   8,0g   1100 S  24,0  51,9   0:01.94 ex2                                                          
+   1920 ahmad     20   0 6653460 100500  47484 S  16,0   0,6   2:41.45 gnome-shell                                                  
+   8727 ahmad     20   0  565852  31240  22000 S   6,0   0,2   0:09.24 gnome-terminal-                                              
+     13 root      20   0       0      0      0 I   1,0   0,0   0:05.77 rcu_sched                                                    
+   5475 ahmad     20   0   32,6g 116424  66432 S   1,0   0,7   0:47.43 chrome                                                       
+   5506 ahmad     20   0 1064880  16196   7984 S   1,0   0,1   0:10.25 Xwayland                                                     
+   6443 ahmad     20   0 1129,4g 100892  58200 S   1,0   0,6   0:28.20 chrome                                                       
+   8919 root       0 -20       0      0      0 D   1,0   0,0   0:01.85 kworker/u25:1+i915_flip                                      
+   9114 ahmad     20   0   21996   4300   3420 R   1,0   0,0   0:00.05 top           
+
+As expected, ex2 took most of the resources especially the memory, because it allocates a big part of the memory.
+And it uses 24 percent of the CPU as it keeps running for 10 seconds

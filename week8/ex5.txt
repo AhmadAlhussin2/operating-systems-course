@@ -1,0 +1,5 @@
+The physical address is the real(physical) location of an address in memory. However the virtual address get generated from the CPU during the program runtime. 
+Moreover, the virtually address does not physically exists, unlike the physical address which is a location in memory.
+Also, the virtual address is used to access the physical address, since the physical address is not directly accessable.
+The physical address is computed by a hardware called Memory Manegment Unit, but the virtual addres does not get computed since it is virtual and does not really exist.
+

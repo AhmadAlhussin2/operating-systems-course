@@ -1,0 +1,2 @@
+The pages are 8KB or (2^13) bits
+The number of entries for a single-level linear page table is (2^16 / 2^13) = 2^3 = 8 entries
