@@ -1,0 +1,15 @@
+For increasing the hit/miss ratio, I increased the number of duplicated items.
+To do so, I printed a list with 1000 numbers, and on each iteration "i" I printed i/2.
+The results are:
+for 10 page frames:
+Number of hits are: 499, Number of misses are: 501
+Hit/Miss ratio: 0.996008
+For 50 page frames:
+Number of hits are: 499, Number of misses are: 501
+Hit/Miss ratio: 0.996008
+For 100 page frames:
+Number of hits are: 499, Number of misses are: 501
+Hit/Miss ratio: 0.996008
+
+And, that is because when increasing the number of duplicated numbers, the chance of getting a hit is increased.
+
