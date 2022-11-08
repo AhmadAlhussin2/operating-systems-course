@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <limits.h>
 
 int main(int argc,char *argv[]){
     int pageFrames;
@@ -19,14 +18,8 @@ int main(int argc,char *argv[]){
         cnt[i]=0;
     }
     freopen("input.txt","r",stdin);
-    int request,previousPage=INT_MIN,hit=0,miss=0;
+    int request,hit=0,miss=0;
     while (scanf("%d",&request)!=EOF){
-        for (int i=0;i<pageFrames;i++){
-            cnt[i]>>=1;
-            if (pages[i]==previousPage){
-                cnt[i]|=(1<<7);
-            }
-        }
         int found=0;
         for (int i=0;i<pageFrames;i++){
             if (pages[i]==request){
@@ -36,30 +29,33 @@ int main(int argc,char *argv[]){
         }
         if (found==1){
             hit++;
-            previousPage=request;
-            continue;
         }
         else {
             miss++;
-        }
-        int placed=0;
-        for (int i=0;i<pageFrames;i++){
-            if (pages[i]==-1){
-                pages[i]=request;
-                previousPage=request;
-                cnt[i]=0;
-                placed=1;
-                break;
+            int placed=0;
+            for (int i=0;i<pageFrames;i++){
+                if (pages[i]==-1){
+                    pages[i]=request;
+                    cnt[i]=0;
+                    placed=1;
+                    break;
+                }
+            }
+            if (placed==0){
+                int mnidx=0;
+                for (int i=0;i<pageFrames;i++){
+                    if (cnt[i]<cnt[mnidx])mnidx=i;
+                }
+                pages[mnidx]=request;
+                cnt[mnidx]=0;
             }
         }
-        if (placed==1)continue;
-        int mnidx=0;
         for (int i=0;i<pageFrames;i++){
-            if (cnt[i]<cnt[mnidx])mnidx=i;
+            cnt[i]>>=1;
+            if (pages[i]==request){
+                cnt[i]|=(1<<7);
+            }
         }
-        pages[mnidx]=request;
-        cnt[mnidx]=0;
-        previousPage=request;
     }
     printf("Number of hits are: %d, Number of misses are: %d\n",hit,miss);
     float ratio = hit;
