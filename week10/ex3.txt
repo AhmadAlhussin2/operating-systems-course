@@ -1,0 +1,39 @@
+total 40
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1_1.txt
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1_2.txt
+-rw-rw-r-- 1 ahmad ahmad 229 ноя 15 23:01 ex1.sh
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1.txt
+-rw-rw-r-- 1 ahmad ahmad  52 ноя 15 23:02 ex1.txt
+-rw-rw-r-- 1 ahmad ahmad 309 ноя 15 22:55 ex2.sh
+-rw-rw-r-- 1 ahmad ahmad  15 ноя 15 22:55 _ex2.txt
+-rw-rw-r-- 1 ahmad ahmad  18 ноя 15 22:55 ex2.txt
+-rw-rw-r-- 1 ahmad ahmad 472 ноя 15 23:54 ex3.sh
+-rw-rw-r-- 1 ahmad ahmad  15 ноя 15 23:54 _ex3.txt
+-rw-rw-r-- 1 ahmad ahmad   0 ноя 15 23:54 ex3.txt
+total 44
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1_1.txt
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1_2.txt
+-rw-rw-r-- 1 ahmad ahmad 229 ноя 15 23:01 ex1.sh
+-rw-rw-r-- 3 ahmad ahmad  15 ноя 15 23:02 _ex1.txt
+-rw-rw-r-- 1 ahmad ahmad  52 ноя 15 23:02 ex1.txt
+-rw-rw-r-- 1 ahmad ahmad 309 ноя 15 22:55 ex2.sh
+-rw-rw-r-- 1 ahmad ahmad  15 ноя 15 22:55 _ex2.txt
+-rw-rw-r-- 1 ahmad ahmad  18 ноя 15 22:55 ex2.txt
+-rw-rw-r-- 1 ahmad ahmad 472 ноя 15 23:54 ex3.sh
+-rwxrw-rwx 1 ahmad ahmad  15 ноя 15 23:54 _ex3.txt
+-rw-rw-r-- 1 ahmad ahmad 598 ноя 15 23:54 ex3.txt
+total 44
+-rw-rw-r-- 3 ahmad ahmad   15 ноя 15 23:02 _ex1_1.txt
+-rw-rw-r-- 3 ahmad ahmad   15 ноя 15 23:02 _ex1_2.txt
+-rw-rw-r-- 1 ahmad ahmad  229 ноя 15 23:01 ex1.sh
+-rw-rw-r-- 3 ahmad ahmad   15 ноя 15 23:02 _ex1.txt
+-rw-rw-r-- 1 ahmad ahmad   52 ноя 15 23:02 ex1.txt
+-rw-rw-r-- 1 ahmad ahmad  309 ноя 15 22:55 ex2.sh
+-rw-rw-r-- 1 ahmad ahmad   15 ноя 15 22:55 _ex2.txt
+-rw-rw-r-- 1 ahmad ahmad   18 ноя 15 22:55 ex2.txt
+-rw-rw-r-- 1 ahmad ahmad  472 ноя 15 23:54 ex3.sh
+-rwxrwxrwx 1 ahmad ahmad   15 ноя 15 23:54 _ex3.txt
+-rw-rw-r-- 1 ahmad ahmad 1196 ноя 15 23:54 ex3.txt
+660 code means Users belonging to your group can change this file, others don't have any access to it at all.
+775 code means Standard file sharing mode for a group.
+777 code means Everybody can do everything to this file.
