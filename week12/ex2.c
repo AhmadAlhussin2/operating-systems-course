@@ -11,8 +11,14 @@ int main() {
     while (1) {
         read(fd,&evt,sizeof(evt));
         if (evt.type == EV_KEY&&(evt.value==0||evt.value==1)){
-	    if (evt.value==1)printf("PRESSED ");
-	    else printf("RELEASED ");
+	    if (evt.value==1){
+		printf("PRESSED ");
+		fprintf(out,"PRESSED ");
+	    }
+	    else {
+		printf("RELEASED ");
+		fprintf(out,"RELEASED ");
+	    }
             printf("0x%.4x (%d)\n",evt.code,evt.code);
             fprintf(out,"0x%.4x (%d)\n",evt.code,evt.code);
         }
@@ -21,3 +27,4 @@ int main() {
     fclose(out);
     return EXIT_SUCCESS;
 }
+
